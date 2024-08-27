@@ -11,10 +11,10 @@ const hbs = require("hbs");
 //
 //dotenv.config({path:"./config/config.env"});
 
-require('./db/conn');
+require('./db.js');
 
-const Register = require("./models/registers");
-const UserRegister = require('./models/registers');
+const Register = require("./registers");
+const UserRegister = require('./registers');
 
 
 
